@@ -1,0 +1,9 @@
+r=int(input("Enter the radius : "))
+h=int(input("Enter the height : "))
+vol=3.14*r*r*h
+print("Volume of Cylinder is : ",vol)
+
+
+Enter the radius : 123
+Enter the height : 155
+Volume of Cylinder is :  \7363284.300000001
