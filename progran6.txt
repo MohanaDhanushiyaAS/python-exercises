@@ -1,0 +1,12 @@
+p=int(input("Enter principal : "))
+r=int(input("Enter Rates : "))
+t=int(input("Enter Times : "))
+si=(p*r*t)/100
+print("Simple Intrest is : ",si)
+
+
+
+Enter principal : 5000
+Enter Rates : 300
+Enter Times : 500
+Simple Intrest is :  7500000.0
