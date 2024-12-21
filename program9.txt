@@ -1,0 +1,22 @@
+import math
+a=int(input("Enter a "))
+b=int(input("Enter b "))
+c=int(input("Enter c "))
+d=(b*b)-(4*a*c)
+if d>=0:
+    print("roots are : ")
+    X1=-b+math.sqrt(d)/(2*a)
+    X2=-b-math.sqrt(d)/(2*a)
+    print(" X1 = =",X1)
+    print(" X2 = =",X2)
+else:
+    print("roots are imaginary.")
+
+
+
+    Enter a 1
+Enter b 3
+Enter c 4
+roots are imaginary.
+
+    
